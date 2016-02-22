@@ -87,30 +87,19 @@
                             </div>
                             <p class="help-block">Ingrese su Sueldo Bruto</p>
                         </div>
-                        <label>Conyuge a Cargo</label>
-                        <div class="radio">
-                         <label> <input type="radio" name="conyuge" id="No"
-                             value="0" checked>No
-                         </label>
-                     </div>
-                     <div class="radio">
-                         <label> <input type="radio" name="conyuge" id="Si"
-                            value="1">Si
-                        </label>
-                    </div>
-                            <!-- 
-                            <div class="form-group">
-                                <label>Familiares a Cargo</label>
-                                <select class="form-control" id="familiares">
-                                    <option>0</option>
-                                    <option>1</option>
-                                    <option>2</option>
-                                    <option>3</option>
-                                    <option>4</option>
-                                    <option>5</option>
-                                </select>
-                            </div>
-                        -->
+                        <div class="form-group">
+                          <label>Sueldo anual servicio dómestico</label>
+                          <div class="form-group input-group">
+                            <span class="input-group-addon">$</span>
+                            <input id="servicioDomestico" type="text" class="form-control">
+                            <span class="input-group-addon">.00</span>
+                          </div>
+                          <p class="help-block">Ingrese el sueldo anual pagado al servicio dómestico</p>
+                        </div>
+                        <label>Conyuge a Cargo?</label>
+                          <input type="checkbox" name="conyuge" id="No" value="0">
+                        <label>Regimen especial?</label>
+                          <input type="checkbox" name="regimenEspecial" value="0">
                         <div class="form-group">
                             <label>Cantidad de Hijos</label>
                             <select class="form-control" id="hijos">
